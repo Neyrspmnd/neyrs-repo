@@ -45,16 +45,20 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "build:rust": "cd core-parser && cargo build --release && cd ..",
+    "build:all": "npm run build:rust && npm run build",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
+    "test:rust": "cd core-parser && cargo test && cd ..",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",
     "format:check": "prettier --check \"src/**/*.ts\"",
     "type-check": "tsc --noEmit",
     "bench": "tsx benchmarks/agent-benchmark.ts",
-    "prepublishOnly": "npm run build && npm test"
+    "bench:rust": "cd core-parser && cargo bench && cd ..",
+    "prepublishOnly": "npm run build:all && npm test"
   },
   "dependencies": {
     "@solana/web3.js": "^1.87.6",

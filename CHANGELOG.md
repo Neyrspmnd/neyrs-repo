@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Commerce integration with Amazon API
 - AI-powered conversation context
 - Multi-language support
+- Voice interface support
+- Mobile SDK
+- Cross-chain support
 
 ## [0.1.0] - 2024-01-10
 
