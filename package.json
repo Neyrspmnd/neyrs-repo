@@ -11,7 +11,12 @@
     "swap",
     "stake",
     "web3",
-    "commerce"
+    "commerce",
+    "jupiter",
+    "jito",
+    "mev-protection",
+    "intent-resolution",
+    "natural-language"
   ],
   "homepage": "https://github.com/neyrs/neyrs-core#readme",
   "bugs": {
