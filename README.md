@@ -154,7 +154,9 @@ End-to-End Processing        180.5 (avg)     5,540
 - [API Reference](./docs/api-reference.md) - Complete API documentation
 - [Performance Guide](./docs/performance.md) - Optimization strategies
 - [Deployment Guide](./docs/deployment.md) - Production deployment
+- [Project Roadmap](./ROADMAP.md) - Development roadmap and milestones
 - [Contributing Guide](./CONTRIBUTING.md) - Contribution guidelines
+- [Code of Conduct](./CODE_OF_CONDUCT.md) - Community guidelines
 - [Security Policy](./SECURITY.md) - Security best practices
 
 ## Examples
