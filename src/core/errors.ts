@@ -66,3 +66,17 @@ export class AIServiceError extends NeyrsError {
     this.name = 'AIServiceError';
   }
 }
+
+export class ConfigurationError extends NeyrsError {
+  constructor(message: string, details?: unknown) {
+    super(message, 'CONFIGURATION_ERROR', 500, details);
+    this.name = 'ConfigurationError';
+  }
+}
+
+export class TimeoutError extends NeyrsError {
+  constructor(message: string, details?: unknown) {
+    super(message, 'TIMEOUT_ERROR', 408, details);
+    this.name = 'TimeoutError';
+  }
+}

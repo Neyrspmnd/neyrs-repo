@@ -80,4 +80,16 @@ export class Logger {
         console.log(message);
     }
   }
+
+  setLevel(level: LogLevel): void {
+    this.level = level;
+  }
+
+  getLevel(): LogLevel {
+    return this.level;
+  }
+
+  child(context: Record<string, unknown>): Logger {
+    return new Logger(this.level, { ...this.context, ...context });
+  }
 }
