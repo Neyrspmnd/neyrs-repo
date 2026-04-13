@@ -54,4 +54,25 @@ export class Formatter {
     }
     return `${text.slice(0, maxLength - 3)}...`;
   }
+
+  static formatBps(bps: number): string {
+    return `${(bps / 100).toFixed(2)}%`;
+  }
+
+  static formatLamports(lamports: number, decimals = 4): string {
+    return `${(lamports / 1e9).toFixed(decimals)}`;
+  }
+
+  static formatCompactNumber(value: number): string {
+    if (value >= 1e9) {
+      return `${(value / 1e9).toFixed(2)}B`;
+    }
+    if (value >= 1e6) {
+      return `${(value / 1e6).toFixed(2)}M`;
+    }
+    if (value >= 1e3) {
+      return `${(value / 1e3).toFixed(2)}K`;
+    }
+    return value.toFixed(2);
+  }
 }

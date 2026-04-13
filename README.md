@@ -331,7 +331,7 @@ This project is licensed under the MIT License - see [LICENSE](./LICENSE) file f
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neyrspmnd/neyrs-repo)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/NeyrsDeFI)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/NeyrsAgent)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/NeyrsDeFI)
 [![Website](https://img.shields.io/badge/Website-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.neyrs.cloud)
 
@@ -342,7 +342,7 @@ This project is licensed under the MIT License - see [LICENSE](./LICENSE) file f
 - Website: [neyrs.cloud](https://www.neyrs.cloud)
 - GitHub Issues: [Report a bug](https://github.com/Neyrspmnd/neyrs-repo/issues)
 - Telegram: [@NeyrsDeFI](https://t.me/NeyrsDeFI)
-- Twitter: [@NeyrsDeFI](https://x.com/NeyrsDeFI)
+- Twitter: [@NeyrsAgent](https://x.com/NeyrsAgent)
 
 ---
 

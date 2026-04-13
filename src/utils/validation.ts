@@ -77,4 +77,28 @@ export class Validator {
       return false;
     }
   }
+
+  static isValidPriorityFee(fee: number): boolean {
+    return typeof fee === 'number' && fee >= 0 && fee <= 1000000;
+  }
+
+  static validatePriorityFee(fee: number): void {
+    if (!this.isValidPriorityFee(fee)) {
+      throw new ValidationError(
+        'Invalid priority fee: must be between 0 and 1,000,000 lamports'
+      );
+    }
+  }
+
+  static isValidComputeUnits(units: number): boolean {
+    return typeof units === 'number' && units > 0 && units <= 1400000;
+  }
+
+  static validateComputeUnits(units: number): void {
+    if (!this.isValidComputeUnits(units)) {
+      throw new ValidationError(
+        'Invalid compute units: must be between 1 and 1,400,000'
+      );
+    }
+  }
 }
